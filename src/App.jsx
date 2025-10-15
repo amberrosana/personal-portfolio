@@ -58,17 +58,25 @@ function App() {
         {/* Main Content */}
         <div className="main-content">
           {/* Home Section */}
-          <section className={`home section ${activeSection === 'home' ? 'active' : ''}`} id="home">
+          <section className={`home section ${activeSection === 'home' ? 'active' : ''}`} id='home'>
             <div className="container">
               <div className="intro">
                 <img src="images/me.png" alt="profile" className="shadow-dark" />
                 <h1>Amber Rosana</h1>
                 <span className="iTyped" />
                 <div className="social-links">
-                  <a href="#"> <i className="fa fa-twitter" /> </a>
-                  <a href="#"> <i className="fa fa-facebook" /> </a>
-                  <a href="#"> <i className="fa fa-instagram" /> </a>
-                  <a href="#"> <i className="fa fa-linkedin" /> </a>
+                  <a href="https://x.com/amber_rosana" target="_blank" rel="noopener noreferrer"> 
+                    <i className="fa fa-twitter" /> 
+                  </a>
+                  <a href="https://web.facebook.com/amberprincess.rosana" target="_blank" rel="noopener noreferrer"> 
+                    <i className="fa fa-facebook" /> 
+                  </a>
+                  <a href="https://github.com/amberrosana" target="_blank" rel="noopener noreferrer"> 
+                    <i className="fa fa-github" /> 
+                  </a>
+                  <a href="https://www.linkedin.com/in/amber-rosana-9b7004301/" target="_blank" rel="noopener noreferrer"> 
+                    <i className="fa fa-linkedin" /> 
+                  </a>
                 </div>
               </div>
             </div>
@@ -175,7 +183,7 @@ function App() {
           </section>
           {/* About Section End */}
 
-          {/* Hobbies Section (Formerly Service) */}
+          {/* Hobbies Section*/}
           <section className={`service section ${activeSection === 'hobbies' ? 'active' : ''}`} id="hobbies">
             <div className="container">
               <div className="row">
@@ -242,7 +250,7 @@ function App() {
           </section>
           {/* Hobbies Section End */}
 
-          {/* Projects Section (Formerly Blog) */}
+          {/* Projects Section*/}
           <section className={`blog section ${activeSection === 'projects' ? 'active' : ''}`} id="projects">
             <div className="container">
               <div className="row">

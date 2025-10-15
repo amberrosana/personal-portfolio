@@ -12,33 +12,12 @@ function App() {
   const handleNavLinkClick = (e, sectionId) => {
     e.preventDefault();
     setActiveSection(sectionId);
-    setIsNavOpen(false); // Close nav on mobile after click
-    
-    // Scroll to the top of the main content
-    const mainContent = document.querySelector('.main-content');
-    if (mainContent) {
-      mainContent.scrollTo(0, 0);
-    }
-  };
+    setIsNavOpen(false); 
 
-  // Effect to apply the fixed 'dark' class once on component mount
-  useEffect(() => {
-    // This permanently sets the body to 'dark'
-    document.body.className = defaultBodySkin; 
-    
-    // Clean-up function (good practice)
-    return () => {
-      document.body.className = '';
-    };
-  }, []); // Runs once on mount
-
-  // Navigation Links with updated names
   const navLinks = [
     { id: 'home', icon: 'fa fa-home', name: 'Home' },
     { id: 'about', icon: 'fa fa-user', name: 'About' },
-    // 💡 NEW ICON: fa-palette for Hobbies
     { id: 'hobbies', icon: 'fa fa-paint-brush', name: 'Hobbies' }, 
-    // 💡 NEW ICON: fa-code for Projects
     { id: 'projects', icon: 'fa fa-code', name: 'Projects' }, 
     { id: 'contact', icon: 'fa fa-comments', name: 'Contact' },
   ];

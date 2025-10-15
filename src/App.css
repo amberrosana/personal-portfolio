@@ -1,9 +1,12 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
   --skin-color: #72b626; 
+  background-color: #242424;
+}
+
+body, html {
+  overflow-x: hidden; 
+  overflow-y: hidden;
+  background-color: #242424;
 }
 
 .logo {
@@ -169,22 +172,116 @@ body .shadow-dark{
     top: 0;
     right: 0;
     bottom: 0;
-    
-    opacity: 0;
-    z-index: 0;
-    visibility: hidden;
-    transform: translateX(100%); 
+        
+    z-index: 0; 
 
-    transition: all 0.7s cubic-bezier(0.55, 0.085, 0.68, 0.53); 
+    visibility: hidden;
+    opacity: 0; 
+    
+    transform: none; 
 
     overflow-y: auto; 
     padding: 0 30px;
     left: 270px; 
+    
+    transition: opacity 0.6s ease-in-out, visibility 0s 0.6s;
 }
 
 .section.active {
     opacity: 1;
+    
     z-index: 1; 
     visibility: visible;
-    transform: translateX(0); 
+    
+    transform: none; 
+    
+    transition: opacity 0.6s ease-in-out, visibility 0s 0s, z-index 0s 0s; 
 }
+
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after {
+    transition: all 0.3s ease;
+}
+
+/* 1. When nav is open, HIDE the middle bar (the span element itself). */
+.aside.open .nav-toggler span {
+    background-color: transparent !important; /* Use !important to override any other conflicting color rule */
+}
+
+/* 2. Rotate the ::before bar (top bar) to form the first half of 'X' */
+.aside.open .nav-toggler span::before {
+    /* Move it down from its original position to the center (top: 0) */
+    top: 0; 
+    /* Rotate it 45 degrees */
+    transform: rotate(45deg);
+}
+
+/* 3. Rotate the ::after bar (bottom bar) to form the second half of 'X' */
+.aside.open .nav-toggler span::after {
+    /* Move it up from its original position to the center (top: 0) */
+    top: 0; 
+    /* Rotate it -45 degrees */
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 767px) {
+    /* * Forces all multi-column items (services, blog, about info, contact forms) 
+     * to stack vertically (100% width) on small phone screens.
+     */
+    
+    /* Hobbies (service) and Projects (blog) items */
+    .service .service-item,
+    .blog .blog-item {
+        flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* About sections (Personal Info and Skills) */
+    .about .about-content .personal-info,
+    .about .about-content .skills {
+        flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* Contact info items and form columns */
+    .contact .contact-info-item,
+    .contact .contact-form .col-6 {
+        flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 1199px) {
+    .aside {
+        left: -270px;
+    }
+
+    .aside.open {
+        left: 0;
+    }
+
+    .section {
+
+        left: 0;
+        width: 100%;
+    }
+
+    .section.open {
+        left: 270px;
+        width: calc(100% - 270px);
+    }
+    
+    /* 3. Nav Toggler Button Position */
+    .aside .nav-toggler {
+        display: -ms-flexbox;
+        display: flex;
+        left: 30px;
+    }
+
+    .aside .nav-toggler.open {
+        left: 300px;
+    }

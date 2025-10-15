@@ -99,4 +99,5 @@ You can access the live version of the portfolio here:
 [https://amberrosana.github.io/personal-portfolio/](https://amberrosana.github.io/personal-portfolio/)
 
 * **Demo Recording:**
-*Demo Link Coming Soon*
+
+[https://drive.google.com/file/d/1GY8h7nkHxwZNa3DIDmAB-MBRG2ZGMoVT/view?usp=sharing](https://drive.google.com/file/d/1GY8h7nkHxwZNa3DIDmAB-MBRG2ZGMoVT/view?usp=sharing)

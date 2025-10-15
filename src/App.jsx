@@ -5,7 +5,6 @@ function App() {
   const [activeSection, setActiveSection] = useState('home');
   const [isNavOpen, setIsNavOpen] = useState(false);
 
-  // Utility to handle section change on link click
   const handleNavLinkClick = (e, sectionId) => {
     e.preventDefault();
     setActiveSection(sectionId);
@@ -427,7 +426,7 @@ function App() {
                 <div className="contact-info-item padd-15"> 
                   <div className="icon"> 
                     <a 
-                      href="#" 
+                      href="https://x.com/amber_rosana" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="social-icon-link" 
@@ -436,7 +435,7 @@ function App() {
                     </a>
                   </div> 
                   <h4>Twitter</h4> 
-                  <p>rosanaamber</p>
+                  <p>amber_rosana</p>
                 </div>
                 
                 {/* Facebook */}
@@ -459,7 +458,7 @@ function App() {
                 <div className="contact-info-item padd-15"> 
                   <div className="icon"> 
                     <a 
-                      href="#" 
+                      href="https://github.com/amberrosana" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="social-icon-link" 
@@ -468,7 +467,7 @@ function App() {
                     </a>
                   </div> 
                   <h4>GitHub</h4> 
-                  <p>rosanaamber</p>
+                  <p>amberrosana</p>
                 </div>
               </div>
               {/* End of Contact Info Items */}

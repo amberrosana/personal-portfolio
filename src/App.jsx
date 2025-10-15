@@ -4,9 +4,6 @@ import './App.css';
 function App() {
   const [activeSection, setActiveSection] = useState('home');
   const [isNavOpen, setIsNavOpen] = useState(false);
-  
-  // Set the desired fixed skin:
-  const defaultBodySkin = 'dark'; 
 
   // Utility to handle section change on link click
   const handleNavLinkClick = (e, sectionId) => {
@@ -200,60 +197,132 @@ function App() {
           <section className={`blog section ${activeSection === 'projects' ? 'active' : ''}`} id="projects">
             <div className="container">
               <div className="row">
-                <div className="section-title padd-15"> <h2>Latest Projects</h2> </div>
+                <div className="section-title padd-15"> <h2>Projects</h2> </div>
               </div>
               <div className="row">
                 
-                {/* Project Item 1 */}
+                {/* Project Item 1: Letters of Sumire */}
                 <div className="blog-item padd-15"> 
                   <div className="blog-item-inner shadow-dark"> 
-                    {/* 💡 Anchor tag added around the image/date block */}
-                    <a href="#project-link-1" target="_blank" rel="noopener noreferrer" className="project-link-overlay">
+                    <a href="https://github.com/amberrosana-lvcc/note-app" target="_blank" rel="noopener noreferrer" className="project-link-overlay">
                       <div className="blog-img"> 
-                        <img src="images/blog/1.jpg" alt="Responsive Web Design Project" /> 
-                        <div className="blog-date">4 jun 2020</div> 
+                        <img src="images/projects/noteapp.png" alt="Letters of Sumire Web App" /> 
+                        <div className="blog-date">Web App</div> 
                       </div> 
                     </a>
                     <div className="blog-info"> 
-                      <h4 className="blog-title">Responsive Web Design</h4> 
-                      <p className="blog-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas. </p> 
-                      <p className="blog-tags"> Tags : <a href="#">Html</a> , <a href="#">css</a> </p> 
+                      <h4 className="blog-title">
+                        Letters of Sumire
+                        <a href="https://github.com/amberrosana-lvcc/note-app" target="_blank" rel="noopener noreferrer" style={{ marginLeft: '10px' }}>
+                          <i className="fa fa-external-link" style={{ color: '#4CAF50', fontSize: '16px' }} />
+                        </a>
+                      </h4> 
+                      <p className="blog-description"> A note-taking web application using Laravel, HTML, and Tailwind CSS. </p> 
                     </div> 
                   </div> 
                 </div>
                 
-                {/* Project Item 2 */}
+                {/* Project Item 2: Notes App (2025) */}
                 <div className="blog-item padd-15"> 
                   <div className="blog-item-inner shadow-dark"> 
-                    {/* 💡 Anchor tag added around the image/date block */}
-                    <a href="#project-link-2" target="_blank" rel="noopener noreferrer" className="project-link-overlay">
+                    <a href="https://github.com/amberrosana-lvcc/notes" target="_blank" rel="noopener noreferrer" className="project-link-overlay">
                       <div className="blog-img"> 
-                        <img src="images/blog/2.jpg" alt="Creative Slideshow Project" /> 
-                        <div className="blog-date">4 jun 2020</div> 
+                        <img src="images/projects/notes.png" alt="Laravel Notes App" /> 
+                        <div className="blog-date">Web App</div> 
                       </div> 
                     </a>
                     <div className="blog-info"> 
-                      <h4 className="blog-title">Creative Slideshow</h4> 
-                      <p className="blog-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas. </p> 
-                      <p className="blog-tags"> Tags : <a href="#">Html</a> , <a href="#">Javascript</a> </p> 
+                      <h4 className="blog-title">
+                        Notes App
+                        <a href="https://github.com/amberrosana-lvcc/notes" target="_blank" rel="noopener noreferrer" style={{ marginLeft: '10px' }}>
+                          <i className="fa fa-external-link" style={{ color: '#4CAF50', fontSize: '16px' }} />
+                        </a>
+                      </h4> 
+                      <p className="blog-description"> A secure Laravel note application featuring user authentication and scaffolding built using Breeze. </p> 
                     </div> 
                   </div> 
                 </div>
                 
-                {/* Project Item 3 */}
+                {/* Project Item 3: Ibong Adarna: Ang Paglalakbay */}
                 <div className="blog-item padd-15"> 
                   <div className="blog-item-inner shadow-dark"> 
-                    {/* 💡 Anchor tag added around the image/date block */}
-                    <a href="#project-link-3" target="_blank" rel="noopener noreferrer" className="project-link-overlay">
+                    <a href="https://github.com/7078-cj/Ibong_Adarna" target="_blank" rel="noopener noreferrer" className="project-link-overlay">
                       <div className="blog-img"> 
-                        <img src="images/blog/3.jpg" alt="Image Gallery Lightbox Project" /> 
-                        <div className="blog-date">4 jun 2020</div> 
+                        <img src="images/projects/ibongadarna.png" alt="Ibong Adarna Game Web App" /> 
+                        <div className="blog-date">Web Game</div> 
                       </div> 
                     </a>
                     <div className="blog-info"> 
-                      <h4 className="blog-title">Image Gallery Lightbox</h4> 
-                      <p className="blog-description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas. </p> 
-                      <p className="blog-tags"> Tags : <a href="#">Javascript</a> </p> 
+                      <h4 className="blog-title">
+                        Ibong Adarna: Ang Paglalakbay
+                        <a href="https://github.com/7078-cj/Ibong_Adarna" target="_blank" rel="noopener noreferrer" style={{ marginLeft: '10px' }}>
+                          <i className="fa fa-external-link" style={{ color: '#4CAF50', fontSize: '16px' }} />
+                        </a>
+                      </h4> 
+                      <p className="blog-description"> Educational game web application for Grade 7 student (Role: Frontend Developer using React & Tailwind)</p> 
+                    </div> 
+                  </div> 
+                </div>
+
+                {/* Project Item 4: Pijii */}
+                <div className="blog-item padd-15"> 
+                  <div className="blog-item-inner shadow-dark"> 
+                    <a href="https://github.com/LVCCWAD/Pijii" target="_blank" rel="noopener noreferrer" className="project-link-overlay">
+                      <div className="blog-img"> 
+                        <img src="images/projects/pijii.png" alt="Pijii Task Manager Web App" /> 
+                        <div className="blog-date">Web App</div> 
+                      </div> 
+                    </a>
+                    <div className="blog-info"> 
+                      <h4 className="blog-title">
+                        Pijii - Task Manager
+                        <a href="https://github.com/LVCCWAD/Pijii" target="_blank" rel="noopener noreferrer" style={{ marginLeft: '10px' }}>
+                          <i className="fa fa-external-link" style={{ color: '#4CAF50', fontSize: '16px' }} />
+                        </a>
+                      </h4> 
+                      <p className="blog-description"> Simple Task Manager Web App built with Laravel, React, Inertia, and Tailwind CSS. (Role: Lead Backend Developer) </p> 
+                    </div> 
+                  </div> 
+                </div>
+
+                {/* Figma Item 1: NyomNyan */}
+                <div className="blog-item padd-15"> 
+                  <div className="blog-item-inner shadow-dark"> 
+                    <a href="https://www.figma.com/proto/ePzdNYDOUc80DFZByv9bit/PRACTICAL_ROSANA_BSIS2?page-id=1%3A2&node-id=1-7&p=f&m=draw&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A7&t=o16mlE8YRKMCPoIH-1" target="_blank" rel="noopener noreferrer" className="project-link-overlay">
+                      <div className="blog-img"> 
+                        <img src="images/projects/nyomnyan.png" alt="NyomNyan Mobile Food Ordering App Figma Design" /> 
+                        <div className="blog-date">Figma Design</div> 
+                      </div> 
+                    </a>
+                    <div className="blog-info"> 
+                      <h4 className="blog-title">
+                        NyomNyan - Mobile Food Ordering
+                        <a href="https://www.figma.com/proto/ePzdNYDOUc80DFZByv9bit/PRACTICAL_ROSANA_BSIS2?page-id=1%3A2&node-id=1-7&p=f&m=draw&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A7&t=o16mlE8YRKMCPoIH-1" target="_blank" rel="noopener noreferrer" style={{ marginLeft: '10px' }}>
+                          <i className="fa fa-external-link" style={{ color: '#4CAF50', fontSize: '16px' }} />
+                        </a>
+                      </h4> 
+                      <p className="blog-description"> A high-fidelity prototype of a mobile food ordering app, designed in Figma. </p> 
+                    </div> 
+                  </div> 
+                </div>
+
+                {/* Figma Item 2: Tastewise */}
+                <div className="blog-item padd-15"> 
+                  <div className="blog-item-inner shadow-dark"> 
+                    <a href="https://www.figma.com/proto/41BLqX2m6mY0zCOTAMQl4n/Tastewise---HCI?page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&scaling=contain&content-scaling=fixed&t=Cfm0Fcuky7MhXnbk-1" target="_blank" rel="noopener noreferrer" className="project-link-overlay">
+                      <div className="blog-img"> 
+                        <img src="images/projects/tastewise.png" alt="Tastewise AI Recipe Generator Figma Design" /> 
+                        <div className="blog-date">Figma Design</div> 
+                      </div> 
+                    </a>
+                    <div className="blog-info"> 
+                      <h4 className="blog-title">
+                        Tastewise
+                        <a href="https://www.figma.com/proto/41BLqX2m6mY0zCOTAMQl4n/Tastewise---HCI?page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&scaling=contain&content-scaling=fixed&t=Cfm0Fcuky7MhXnbk-1" target="_blank" rel="noopener noreferrer" style={{ marginLeft: '10px' }}>
+                          <i className="fa fa-external-link" style={{ color: '#4CAF50', fontSize: '16px' }} />
+                        </a>
+                      </h4> 
+                      <p className="blog-description"> A conceptual AI-assisted recipe generator designed in Figma, tailored for people with illnesses and filterable by cost. (Lead UI/UX Designer) </p> 
                     </div> 
                   </div> 
                 </div>

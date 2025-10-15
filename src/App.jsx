@@ -182,12 +182,61 @@ function App() {
                 <div className="section-title padd-15"> <h2>Hobbies</h2> </div>
               </div>
               <div className="row">
-                <div className="service-item padd-15"> <div className="service-item-inner"> <div className="icon"> <i className="fa fa-laptop" /> </div> <h4>Web Design</h4> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p> </div> </div>
-                <div className="service-item padd-15"> <div className="service-item-inner"> <div className="icon"> <i className="fa fa-photo" /> </div> <h4>Photography</h4> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p> </div> </div>
-                <div className="service-item padd-15"> <div className="service-item-inner"> <div className="icon"> <i className="fa fa-code" /> </div> <h4>Web Development</h4> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p> </div> </div>
-                <div className="service-item padd-15"> <div className="service-item-inner"> <div className="icon"> <i className="fa fa-film" /> </div> <h4>Video Editing</h4> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p> </div> </div>
-                <div className="service-item padd-15"> <div className="service-item-inner"> <div className="icon"> <i className="fa fa-rocket" /> </div> <h4>Seo Optimization</h4> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p> </div> </div>
-                <div className="service-item padd-15"> <div className="service-item-inner"> <div className="icon"> <i className="fa fa-paint-brush" /> </div> <h4>Logo Design</h4> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p> </div> </div>
+                
+                {/* Hobby Item: Web Design (UI/UX & Figma) */}
+                <div className="service-item padd-15"> 
+                  <div className="service-item-inner"> 
+                    <div className="icon"> <i className="fa fa-magic" /> </div> 
+                    <h4>Web Design (UI/UX)</h4> 
+                    <p>I'm currently exploring the fundamentals of UI/UX design, particularly through hands-on practice using Figma to create and prototype user interfaces. </p> 
+                  </div> 
+                </div>
+                
+                {/* Hobby Item: Music (Playing & Creating) */}
+                <div className="service-item padd-15"> 
+                  <div className="service-item-inner"> 
+                    <div className="icon"> <i className="fa fa-music" /> </div> 
+                    <h4>Music</h4> 
+                    <p>I enjoy listening to music, playing the guitar, and occasionally creating my own songs. It's a great outlet for stress relief and creative expression.</p> 
+                  </div> 
+                </div>
+                
+                {/* Hobby Item: Video Editing */}
+                <div className="service-item padd-15"> 
+                  <div className="service-item-inner"> 
+                    <div className="icon"> <i className="fa fa-film" /> </div> 
+                    <h4>Video Editing</h4> 
+                    <p>Recently, I've developed an interest in video editing using tools like CapCut. While I'm still a beginner, I find the process to be highly engaging and enjoyable.</p> 
+                  </div> 
+                </div>
+                
+                {/* Hobby Item: Voice Acting/Narration */}
+                <div className="service-item padd-15"> 
+                  <div className="service-item-inner"> 
+                    <div className="icon"> <i className="fa fa-microphone" /> </div> 
+                    <h4>Voice Acting & Narration</h4> 
+                    <p>I enjoy reading and performing narration scripts and have been asked to provide voiceovers for videos. This hobby helps me practice my public speaking and fluency.</p> 
+                  </div> 
+                </div>
+                
+                {/* Hobby Item: Capture the Flag (CTF) */}
+                <div className="service-item padd-15"> 
+                  <div className="service-item-inner"> 
+                    <div className="icon"> <i className="fa fa-flag-checkered" /> </div> 
+                    <h4>Cybersecurity CTFs</h4> 
+                    <p>I participate in online Capture the Flag (CTF) games, which involve solving challenges in areas like Cryptography, OSINT, AI LLM, and Forensics.</p> 
+                  </div> 
+                </div>
+                
+                {/* Hobby Item: Creative Writing (Poetry) */}
+                <div className="service-item padd-15"> 
+                  <div className="service-item-inner"> 
+                    <div className="icon"> <i className="fa fa-pencil-square-o" /> </div> 
+                    <h4>Creative Writing</h4> 
+                    <p>I like to write poetry as a way to relieve stress and continually improve my overall writing skills.</p> 
+                  </div> 
+                </div>
+                
               </div>
             </div>
           </section>

@@ -93,20 +93,23 @@ function App() {
                 <div className="about-content padd-15">
                   <div className="row">
                     <div className="about-text padd-15">
-                      <h3>I'm Upvesh Kumar and <span>Web Developer</span></h3>
-                      <p>Hi! My name is Upvesh Kumar. I am a Web Developer, and I'm very passionate and dedicated to my work. With 10 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration. </p>
+                      <h3>I'm Amber Rosana, a <span>Learner in Progress 🌱</span></h3>
+                      <p>
+                        I'm a third-year BS Information Systems student at La Verdad Christian College, interested in UI/UX design and front-end development. I'm currently focused on sharpening my skills in design, prototyping with Figma, and building modern interfaces with frameworks like React.
+                        I am highly adaptable, always willing to learn, and I enjoy collaborating with others to help drive projects toward success. Besides tech, I'm passionate about music, the arts, and filmmaking.
+                      </p>
                     </div>
                   </div>
                   <div className="row">
                     <div className="personal-info padd-15">
                       <div className="row">
-                        <div className="info-item padd-15"> <p>Birthday : <span>5 June 1992</span></p> </div>
-                        <div className="info-item padd-15"> <p>Age : <span>28</span></p> </div>
-                        <div className="info-item padd-15"> <p>Website : <span>www.domain.com</span></p> </div>
-                        <div className="info-item padd-15"> <p>Email : <span>info@gmail.com</span></p> </div>
-                        <div className="info-item padd-15"> <p>Degree : <span>M.Tech</span></p> </div>
-                        <div className="info-item padd-15"> <p>Phone : <span>+91 8800 000 000</span></p> </div>
-                        <div className="info-item padd-15"> <p>City : <span>Mumbai</span></p> </div>
+                        <div className="info-item padd-15"> <p>Birthday : <span>2 October 2005</span></p> </div>
+                        <div className="info-item padd-15"> <p>Age : <span>20</span></p> </div>
+                        <div className="info-item padd-15"> <p>Website : <span>N/A</span></p> </div>
+                        <div className="info-item padd-15"> <p>Email : <span>rosanaamber@gmail.com</span></p> </div>
+                        <div className="info-item padd-15"> <p>Degree : <span>BS Information Systems</span></p> </div>
+                        <div className="info-item padd-15"> <p>Phone : <span>+63 9491 911 579</span></p> </div>
+                        <div className="info-item padd-15"> <p>Location : <span>Pampanga, Philippines</span></p> </div>
                         <div className="info-item padd-15"> <p>Freelance : <span>Available</span></p> </div>
                       </div>
                       <div className="row">
@@ -117,31 +120,30 @@ function App() {
                       </div>
                     </div>
                     <div className="skills padd-15">
-                      {/* ... Skills content ... (omitted for brevity) */}
                       <div className="row">
                         <div className="skill-item padd-15">
-                          <h5>Javascript</h5>
-                          <div className="progress">
-                            <div className="progress-in" style={{ width: "76%" }} />
-                            <div className="skill-porcent">76%</div>
-                          </div>
-                        </div>
-                        <div className="skill-item padd-15">
-                          <h5>Wordpress</h5>
+                          <h5>Critical Thinking & Problem Solving</h5>
                           <div className="progress">
                             <div className="progress-in" style={{ width: "90%" }} />
                             <div className="skill-porcent">90%</div>
                           </div>
                         </div>
                         <div className="skill-item padd-15">
-                          <h5>Java</h5>
+                          <h5>Figma (UI/UX)</h5>
                           <div className="progress">
-                            <div className="progress-in" style={{ width: "80%" }} />
-                            <div className="skill-porcent">80%</div>
+                            <div className="progress-in" style={{ width: "85%" }} />
+                            <div className="skill-porcent">85%</div>
                           </div>
                         </div>
                         <div className="skill-item padd-15">
-                          <h5>Bootstrap</h5>
+                          <h5>Web App Development (Laravel/React)</h5>
+                          <div className="progress">
+                            <div className="progress-in" style={{ width: "70%" }} />
+                            <div className="skill-porcent">70%</div>
+                          </div>
+                        </div>
+                        <div className="skill-item padd-15">
+                          <h5>Ethical Hacking (CTFs)</h5>
                           <div className="progress">
                             <div className="progress-in" style={{ width: "60%" }} />
                             <div className="skill-porcent">60%</div>
@@ -150,28 +152,29 @@ function App() {
                       </div>
                     </div>
                   </div>
-                  {/* ... Education and Experience content ... (omitted for brevity) */}
                   <div className="row">
                     <div className="education padd-15">
                       <h3 className="title">Education</h3>
                       <div className="row">
                         <div className="timeline-box padd-15">
                           <div className="timeline shadow-dark">
-                            <div className="timeline-item"> <div className="circle-dot" /> <h6 className="timeline-date"> <i className="fa fa-calendar" /> 2013 - 2015 </h6> <h4 className="timeline-title"> Master In Computer Science </h4> <p className="timeline-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. </p></div>
-                            <div className="timeline-item"> <div className="circle-dot" /> <h6 className="timeline-date"> <i className="fa fa-calendar" /> 2011 - 2013 </h6> <h4 className="timeline-title"> Studied At Delhi University </h4> <p className="timeline-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. </p></div>
-                            <div className="timeline-item"> <div className="circle-dot" /> <h6 className="timeline-date"> <i className="fa fa-calendar" /> 2008 - 2011 </h6> <h4 className="timeline-title"> Bachelor Degree </h4> <p className="timeline-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. </p></div>
+                            <div className="timeline-item"> <div className="circle-dot" /> <h6 className="timeline-date"> <i className="fa fa-calendar" /> 2023 - Present </h6> <h4 className="timeline-title"> BS in Information Systems </h4> <p className="timeline-text"> La Verdad Christian College – Apalit </p></div>
+                            <div className="timeline-item"> <div className="circle-dot" /> <h6 className="timeline-date"> <i className="fa fa-calendar" /> 2021 - 2023 </h6> <h4 className="timeline-title"> Senior High School (STEM) </h4> <p className="timeline-text"> Information and Communications Technology High School </p></div>
+                            <div className="timeline-item"> <div className="circle-dot" /> <h6 className="timeline-date"> <i className="fa fa-calendar" /> 2017 - 2021 </h6> <h4 className="timeline-title"> Junior High School </h4> <p className="timeline-text"> Information and Communications Technology High School </p></div>
+                            <div className="timeline-item"> <div className="circle-dot" /> <h6 className="timeline-date"> <i className="fa fa-calendar" /> 2011 - 2017 </h6> <h4 className="timeline-title"> Primary Education </h4> <p className="timeline-text"> Pangatlan Elementary School </p></div>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="experience padd-15">
-                      <h3 className="title">Experience</h3>
+                      <h3 className="title">Experience & Achievements</h3>
                       <div className="row">
                         <div className="timeline-box padd-15">
                           <div className="timeline shadow-dark">
-                            <div className="timeline-item"> <div className="circle-dot" /> <h6 className="timeline-date"> <i className="fa fa-calendar" /> 2013 - 2015 </h6> <h4 className="timeline-title"> Backend Developer </h4> <p className="timeline-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. </p></div>
-                            <div className="timeline-item"> <div className="circle-dot" /> <h6 className="timeline-date"> <i className="fa fa-calendar" /> 2011 - 2013 </h6> <h4 className="timeline-title"> Frontend Developer </h4> <p className="timeline-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. </p></div>
-                            <div className="timeline-item"> <div className="circle-dot" /> <h6 className="timeline-date"> <i className="fa fa-calendar" /> 2008 - 2011 </h6> <h4 className="timeline-title"> Graphic Designer </h4> <p className="timeline-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. </p></div>
+                            <div className="timeline-item"> <div className="circle-dot" /> <h6 className="timeline-date"> <i className="fa fa-calendar" /> Oct 2025 </h6> <h4 className="timeline-title"> 4th Regional HAU CTF - Champion </h4> <p className="timeline-text"> Collaborated as part of a four-member team to achieve first place in the regional Capture the Flag (CTF) cybersecurity competition. </p></div>
+                            <div className="timeline-item"> <div className="circle-dot" /> <h6 className="timeline-date"> <i className="fa fa-calendar" /> 2025 </h6> <h4 className="timeline-title"> Lead Backend Developer - Pijii (Task Manager) </h4> <p className="timeline-text"> Led the backend development of a Task Manager web app built with Laravel, React, and Inertia. </p></div>
+                            <div className="timeline-item"> <div className="circle-dot" /> <h6 className="timeline-date"> <i className="fa fa-calendar" /> 2025 </h6> <h4 className="timeline-title"> Frontend Developer - Ibong Adarna Game </h4> <p className="timeline-text"> Developed the frontend interface for an educational web game for Grade 7 students using React & Tailwind CSS. </p></div>
+                            <div className="timeline-item"> <div className="circle-dot" /> <h6 className="timeline-date"> <i className="fa fa-calendar" /> May 2023 </h6> <h4 className="timeline-title"> ICT Week CTF Champion </h4> <p className="timeline-text"> Won the school's internal Capture the Flag (CTF) cybersecurity competition. </p></div>
                           </div>
                         </div>
                       </div>

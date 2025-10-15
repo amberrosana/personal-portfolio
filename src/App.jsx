@@ -114,7 +114,9 @@ function App() {
                       </div>
                       <div className="row">
                         <div className="buttons padd-15">
-                          <a href="#" className="btn"> Download Cv </a>
+                          <a href="CV-Rosana.pdf" 
+                            download="CV-Rosana.pdf"
+                            className="btn"> Download Cv </a>
                           <a href="#contact" className="btn hire-me" onClick={(e) => handleNavLinkClick(e, 'contact')}> Hire me </a>
                         </div>
                       </div>

@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  --skin-color: #72b626; 
 }
 
 .logo {
@@ -39,4 +40,151 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.aside .logo a::before{
+    border-top: 4px solid #72b626;
+    border-left: 4px solid #72b626;
+}
+
+.aside .logo a::after{
+    border-right: 4px solid #72b626;
+    border-bottom: 4px solid #72b626;
+}
+
+.aside .nav li a:hover, 
+body .aside .nav li a:hover,
+.blog .blog-item-inner .blog-info .blog-tags a,
+.portfolio .portfolio-item .portfolio-info .icon .fa,
+.lightbox .lightbox-controls .prev-item .fa,
+.contact .contact-info-item .icon .fa,
+.lightbox .lightbox-controls .next-item .fa,
+.about .about-content .about-text h3 span,
+.portfolio .portfolio-filter button.active,
+body .portfolio .portfolio-filter button.active,
+.service .service-item .service-item-inner .icon .fa,
+body .aside .nav li a.active,
+.aside .nav li a.active{
+    color: #72b626;
+}
+
+.btn,
+.service .service-item .service-item-inner:hover .icon,
+.about .about-content .timeline .circle-dot,
+.blog .blog-item-inner .blog-img .blog-date,
+.about .about-content .skills .skill-item .progress .progress-in,
+.about .about-content .timeline-item::before,
+.aside .nav-toggler span,
+.section-title h2::before,
+.section-title h2::after,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.home .intro .social-links a{
+    background-color: #72b626;
+}
+
+.portfolio .portfolio-filter button.active{
+    border-color: #72b626;
+}
+
+
+
+body .section{
+    background-color: #151515;
+}
+body .aside,
+body .contact .contact-form .form-item .form-control,
+body .blog .blog-item-inner .blog-info,
+body .service .service-item .service-item-inner,
+body .about .about-content .timeline{
+    background-color: #222222;
+}
+body .aside .nav li a,
+body .blog .blog-item-inner .blog-info .blog-title,
+body .contact .contact-info-item h4,
+body .portfolio .portfolio-filter button,
+body .service .service-item .service-item-inner h4,
+body .about .about-content .timeline .timeline-title,
+body .about .about-content .skills .skill-item h5,
+body .about .about-content .personal-info .info-item p,
+body .about .about-content .about-text h3,
+body .home .intro h1,
+body .about .about-content h3.title,
+body .section-title h2,
+body .aside .logo a{
+    color: #ffffff;
+}
+body .home .intro span,
+body .contact .contact-form .form-item .form-control,
+body .blog .blog-item-inner .blog-info .blog-description,
+body .contact .contact-info-item p,
+body .blog .blog-item-inner .blog-info .blog-tags,
+body .service .service-item .service-item-inner p,
+body .about .about-content .timeline .timeline-text,
+body .about .about-content .timeline .timeline-date,
+body .about .about-content .skills .skill-item .skill-porcent,
+body .about .about-content .personal-info .info-item p span,
+body .about .about-content .about-text p{
+    color: #e9e9e9;
+}
+body .about .about-content .personal-info .info-item p,
+body .aside,
+body .contact .contact-form .form-item .form-control,
+body .blog .blog-item-inner,
+body .portfolio .portfolio-item-innner,
+body .service .service-item .service-item-inner,
+body .about .about-content .timeline,
+body .aside .nav li a{
+    border-color: #393939;
+}
+body .shadow-dark{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.contact-info-item .icon .social-icon-link {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    display: inline-block; 
+}
+
+.contact-info-item .icon .social-icon-link:hover {
+    transform: scale(1.15);   
+}
+
+.blog .blog-item-inner .project-link-overlay {
+    display: block;
+    text-decoration: none; 
+    transition: box-shadow 0.3s ease;
+}
+
+.blog .blog-item-inner .project-link-overlay:hover {
+    box-shadow: 0 0 15px rgba(114, 182, 38, 0.7); 
+    cursor: pointer;
+}
+
+.section {
+    position: absolute; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    
+    opacity: 0;
+    z-index: 0;
+    visibility: hidden;
+    transform: translateX(100%); 
+
+    transition: all 0.7s cubic-bezier(0.55, 0.085, 0.68, 0.53); 
+
+    overflow-y: auto; 
+    padding: 0 30px;
+    left: 270px; 
+}
+
+.section.active {
+    opacity: 1;
+    z-index: 1; 
+    visibility: visible;
+    transform: translateX(0); 
 }

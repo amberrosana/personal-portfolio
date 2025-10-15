@@ -105,7 +105,7 @@ function App() {
                       <div className="row">
                         <div className="info-item padd-15"> <p>Birthday : <span>2 October 2005</span></p> </div>
                         <div className="info-item padd-15"> <p>Age : <span>20</span></p> </div>
-                        <div className="info-item padd-15"> <p>Website : <span>N/A</span></p> </div>
+                        <div className="info-item padd-15"> <p>Status : <span>Undergraduate Student</span></p> </div>
                         <div className="info-item padd-15"> <p>Email : <span>rosanaamber@gmail.com</span></p> </div>
                         <div className="info-item padd-15"> <p>Degree : <span>BS Information Systems</span></p> </div>
                         <div className="info-item padd-15"> <p>Phone : <span>+63 9491 911 579</span></p> </div>

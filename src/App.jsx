@@ -13,6 +13,7 @@ function App() {
     e.preventDefault();
     setActiveSection(sectionId);
     setIsNavOpen(false); 
+  }
 
   const navLinks = [
     { id: 'home', icon: 'fa fa-home', name: 'Home' },

@@ -32,7 +32,7 @@ function App() {
           <div className="aside-inner">
             {/* Logo */}
             <div className="logo">
-              <a href="#">Amber</a>
+              <a href="home">Amber</a>
             </div>
             {/* Nav */}
             <ul className="nav">

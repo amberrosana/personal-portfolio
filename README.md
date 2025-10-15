@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio! This website showcases my background, technical skills, projects, and professional experience. It is built using **React** and designed to provide potential employers, collaborators, or anyone interested in my work, a clear view of who I am and what I can do.
 
-## 🌟 Purpose
+## Purpose
 
 The purpose of this portfolio is to provide a professional yet personal platform where I can display my work, skills, and achievements in a way that is easily accessible.
 
@@ -10,7 +10,7 @@ It serves as both a dynamic résumé and an interactive showcase of my technical
 
 ---
 
-## ✨ Portfolio Sections
+## Portfolio Sections
 
 This portfolio consists of several key sections:
 
@@ -45,7 +45,7 @@ This personal portfolio was built with the following core technologies:
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 To run this project locally, follow the steps below:
 
@@ -90,7 +90,7 @@ To deploy your portfolio to **GitHub Pages**:
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 You can access the live version of the portfolio here:
 
